@@ -6,15 +6,16 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MvcCoreDemoApp.Controllers
 {
-    public class AdminEmployeesController : Controller
+    public class DepartmentManagerController : Controller
     {
         public IActionResult Index()
         {
-            return View("~/Views/Admin/AdminDepartment/Index.cshtml");
+            return View();
         }
-        public IActionResult UpdateEmployee()
+
+        public IActionResult AssignTask()
         {
-            return View("~/Views/Admin/AdminEmployees/UpdateEmployee.cshtml");
+            return View();
         }
     }
 }

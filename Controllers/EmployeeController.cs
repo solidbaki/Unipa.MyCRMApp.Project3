@@ -12,5 +12,14 @@ namespace MvcCoreDemoApp.Controllers
         {
             return View();
         }
+
+        public IActionResult UpdateTask()
+        {
+            return View();
+        }
+        public IActionResult TaskClosure()
+        {
+            return View();
+        }
     }
 }

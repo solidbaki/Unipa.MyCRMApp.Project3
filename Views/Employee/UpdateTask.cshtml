@@ -1,0 +1,29 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["title"] = "Employee Panel - Update Task";
+}
+<h4 class="display-4 text-center">Update Task</h4>
+<br>
+<p class="text-center">Employees can update a task here,and needs to add a description about the update</p>
+<br>
+<br>
+<div class="container">
+    <!-- <form action="/action_page.php"> -->
+    <form action="#">
+        <div class="form-group">
+            <label for="dropdownTaskClosure">Choose a task to close:</label>
+            <select class="form-control" id="dropdownTaskClosure" name="list1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select> <br>
+            <label for="taskDescriptionClosure">Updated tasks description:</label>
+            <textarea class="form-control" id="taskDescriptionClosure" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Update task</button>
+    </form>
+</div>

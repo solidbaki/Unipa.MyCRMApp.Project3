@@ -8,25 +8,20 @@ namespace MvcCoreDemoApp.Controllers
         {
             return View();
         }
-        public string Welcome()
-        {
-            return "Hello from admindepartment";
-        }
-
         // AdminDepartment/AddDepartment
         public IActionResult AddDepartment()
         {
-            return View();
+            return View("~/Views/Admin/AdminDepartment/AddDepartment.cshtml");
         }
         // AdminDepartment/DeleteDepartment
         public IActionResult DeleteDepartment()
         {
-            return View();
+            return View("~/Views/Admin/AdminDepartment/DeleteDepartment.cshtml");
         }
         // AdminDepartment/UpdateDepartment
         public IActionResult UpdateDepartment()
         {
-            return View();
+            return View("~/Views/Admin/AdminDepartment/UpdateDepartment.cshtml");
         }
 
     }

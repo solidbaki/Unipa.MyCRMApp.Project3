@@ -10,20 +10,20 @@ namespace MvcCoreDemoApp.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return View("~/Views/Admin/AdminManagers/Index.cshtml");
         }
         
         public IActionResult AddManager()
         {
-            return View();
+            return View("~/Views/Admin/AdminManagers/AddManager.cshtml");
         }
         public IActionResult DeleteManager()
         {
-            return View();
+            return View("~/Views/Admin/AdminManagers/DeleteManager.cshtml");
         }
         public IActionResult UpdateManager()
         {
-            return View();
+            return View("~/Views/Admin/AdminManagers/UpdateManager.cshtml");
         }
     }
 }

@@ -1,0 +1,33 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["title"] = "Assign Task";
+}
+    <h4 class="display-4 text-center">Assign a Task</h4> <br>
+    <p class="text-center">Department Managers can assign a task to their departments employees here</p> <br>
+    <br>
+    <div class="container">
+        <!-- <form action="/action_page.php"> -->
+        <form action="#">
+            <div class="form-group">
+                <label for="dropdownTask">Choose a task to assign:</label>
+                <select class="form-control" id="dropdownTask" name="list1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select> <br>
+                <label for="dropdownEmployee">Choose the employee to set on the task:</label>
+                <select class="form-control" id="dropdownEmployee" name="list2">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>

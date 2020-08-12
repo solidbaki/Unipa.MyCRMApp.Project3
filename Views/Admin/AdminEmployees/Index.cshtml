@@ -5,13 +5,13 @@
     ViewData["title"] = "Admin Panel - Employees";
 }
 
-<h1 class="display-3 text-center">Employees Panel</h1>
+<h1 class="display-3 text-center">Admin Panel - Employees Section</h1>
 <br>
 <p class="text-center text-md">Welcome to the employees panel. You can make employee transactions here.</p>
 <br>
 <br>
 <div class="container text-center">
     <div class="d-inline-flex align-items-center">
-        <button class="btn btn-md btn-primary mx-3">Modify Employee</button>
+        <a class="btn btn-md btn-primary mx-3" asp-action="UpdateEmployee" asp-controller="AdminEmployees">Modify Employee</a>
     </div>
 </div>
