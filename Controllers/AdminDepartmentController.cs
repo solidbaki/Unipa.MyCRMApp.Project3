@@ -4,6 +4,7 @@ namespace MvcCoreDemoApp.Controllers
 {
     public class AdminDepartmentController : Controller
     {
+        
         public IActionResult Index()
         {
             return View();
@@ -23,6 +24,7 @@ namespace MvcCoreDemoApp.Controllers
         {
             return View("~/Views/Admin/AdminDepartment/UpdateDepartment.cshtml");
         }
+        //public IActionResult
 
     }
 }
